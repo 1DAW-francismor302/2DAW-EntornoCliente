@@ -266,6 +266,49 @@
         //return elem;
     })
     console.log(vector2)
+
+    let vector3 = vector.map(elem => elem * 2);
+    console.log(vector3);
+
+    // let users = [
+    //     { name: "John", age: 34},
+    //     { name: "Any", age: 20},
+    //     { name: "Amador", age: 25},
+    //     { name: "Thomas", age: 10}
+    // ];
+
+    let arrayAges = users.map (user => user.age);
+    let sumaEdades = arrayAges.reduce( (acumulador, valorActual) => acumulador += valorActual, 0);
+    console.log(arrayAges);
+    console.log(sumaEdades);
+
+
+    let fullUsers = users.map( user => {
+        return {
+            ...user,
+            city: "Jalisco"
+        };
+    });
+
+    console.log(fullUsers);
+
+
+    let fullUsers2 = users.map (user => {
+        return {
+            ...user,
+            age: user.age * 2
+        };
+    });
+    console.log(fullUsers2);
+
+
+    //FOR OF
+    for (let user of users) {
+        console.log(user);
+
+    }
+
+    
     
 
 

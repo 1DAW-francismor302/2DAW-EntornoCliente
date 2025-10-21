@@ -249,7 +249,7 @@
 
     //FOREACH
 
-    vector,forEach(function(elem) {
+    vector.forEach(function(elem) {
         console.log(elem);
     });
 

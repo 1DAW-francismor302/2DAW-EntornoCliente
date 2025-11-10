@@ -1,4 +1,8 @@
 "use strict"
 {
-    
+    function generarNumeroAleatorio (min, max){
+        return (Math.round(Math.random()*(max-min)+min));
+    }
+
+    console.log(generarNumeroAleatorio(501, 600));
 }

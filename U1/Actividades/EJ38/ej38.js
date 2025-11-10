@@ -17,7 +17,7 @@
             }
         })
 
-        return asc: [${menorAmayor}] desc: [${mayorAmenor}];
+        return `asc: [${menorAmayor}] desc: [${mayorAmenor}]`;
     }
 
 

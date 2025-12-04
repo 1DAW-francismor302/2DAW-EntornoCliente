@@ -1,7 +1,6 @@
 "use strict"
 {
     function eliminarDuplicados (vector) {
-        let cont = 0;
         let newArray = [];
         vector.forEach(element => {
             if (!newArray.includes(element)){

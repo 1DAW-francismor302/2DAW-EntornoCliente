@@ -3,17 +3,17 @@
     function ordenar (vector){
         let mayorAmenor = vector.sort( function (first, second){
             if (first > second){
-                return 1;
-            }else{
                 return -1;
+            }else{
+                return 1;
             }
         })
 
-        let menorAmayor = vector.sort( function (first, second){
+        let menorAmayor = [...vector].sort( function (first, second){
             if (first < second){
-                return 1;
-            }else{
                 return -1;
+            }else{
+                return 1;
             }
         })
 

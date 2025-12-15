@@ -1,5 +1,9 @@
 "use strict"
 {
+    let h1 = document.createElement("h1");
+    h1.textContent = "Ejercicio 6: Saludos";
+    document.body.appendChild(h1);
+
     let btn1 = document.createElement("button");
     btn1.textContent = "Comenzar saludos";
     document.body.appendChild(btn1);

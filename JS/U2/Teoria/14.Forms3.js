@@ -1,7 +1,7 @@
 "use strict"
 {
     let formulario = document.querySelector("#idFormulario");
-    const datos = new FormData(formulario);
+    const datos = new FormData(formulario); // Capturo los datos del formulario
     console.log(datos.get("nombre"));
     console.log(datos.get("edad"));
     console.log(datos.get("email"));

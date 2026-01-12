@@ -94,7 +94,7 @@
     }
 
     select.addEventListener("change", function() {
-        select2.innerHTML = "";
+        select2.textContent = "";
         select2.appendChild(opcionPorDefectoCiudad());
 
         if (select.value === "alicante") {
